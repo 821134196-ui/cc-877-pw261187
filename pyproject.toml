@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "h2fwd"
+version = "0.1.0"
+description = "本机 HTTP/2 帧转发练习器：受控协议对端、流控窗口与单流重置练习（纯标准库）"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["h2fwd"]
